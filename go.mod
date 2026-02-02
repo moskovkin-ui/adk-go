@@ -1,28 +1,28 @@
-module google.golang.org/adk
+module github.com/moskovkin-ui/adk-go
 
 go 1.24.4
 
 require (
-	cloud.google.com/go/aiplatform v1.105.0
-	cloud.google.com/go/storage v1.56.1
+	cloud.google.com/go/aiplatform v1.74.0
+	cloud.google.com/go/storage v1.51.0
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
-	golang.org/x/sync v0.18.0
-	google.golang.org/api v0.252.0
+	golang.org/x/sync v0.15.0
+	google.golang.org/api v0.228.0
 	google.golang.org/genai v1.40.0
 	rsc.io/omap v1.2.0
 	rsc.io/ordered v1.1.1
 )
 
 require (
-	cloud.google.com/go v0.123.0
+	cloud.google.com/go v0.120.0
 	github.com/google/jsonschema-go v0.3.0
 	github.com/google/safehtml v0.1.0
 	github.com/modelcontextprotocol/go-sdk v0.7.0
-	google.golang.org/grpc v1.76.0
-	google.golang.org/protobuf v1.36.10
-	gorm.io/gorm v1.31.0
+	google.golang.org/grpc v1.73.0
+	google.golang.org/protobuf v1.36.6
+	gorm.io/gorm v1.25.12
 )
 
 require (
@@ -63,12 +63,12 @@ require (
 	go.opentelemetry.io/contrib/detectors/gcp v1.38.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.63.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.63.0 // indirect
-	go.opentelemetry.io/otel v1.38.0
-	go.opentelemetry.io/otel/metric v1.38.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.38.0
-	go.opentelemetry.io/otel/sdk/metric v1.38.0 // indirect
-	go.opentelemetry.io/otel/trace v1.38.0
-	golang.org/x/oauth2 v0.32.0
+	go.opentelemetry.io/otel v1.37.0
+	go.opentelemetry.io/otel/metric v1.37.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.36.0
+	go.opentelemetry.io/otel/sdk/metric v1.36.0 // indirect
+	go.opentelemetry.io/otel/trace v1.37.0
+	golang.org/x/oauth2 v0.30.0
 	golang.org/x/time v0.14.0 // indirect
 	google.golang.org/genproto v0.0.0-20251014184007-4626949a642f // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20251014184007-4626949a642f // indirect

@@ -29,16 +29,16 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/internal/httprr"
-	"google.golang.org/adk/internal/testutil"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/internal/typeutil"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/model/gemini"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/moskovkin-ui/adk-go/agent/llmagent"
+	"github.com/moskovkin-ui/adk-go/internal/httprr"
+	"github.com/moskovkin-ui/adk-go/internal/testutil"
+	"github.com/moskovkin-ui/adk-go/internal/toolinternal"
+	"github.com/moskovkin-ui/adk-go/internal/typeutil"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/model/gemini"
+	"github.com/moskovkin-ui/adk-go/tool"
+	"github.com/moskovkin-ui/adk-go/tool/functiontool"
+	"github.com/moskovkin-ui/adk-go/tool/toolconfirmation"
 )
 
 type SumArgs struct {
