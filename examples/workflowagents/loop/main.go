@@ -23,12 +23,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/workflowagents/loopagent"
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/cmd/launcher/full"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/agent/workflowagents/loopagent"
+	"github.com/moskovkin-ui/adk-go/cmd/launcher"
+	"github.com/moskovkin-ui/adk-go/cmd/launcher/full"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/session"
 )
 
 func CustomAgentRun(ctx agent.InvocationContext) iter.Seq2[*session.Event, error] {

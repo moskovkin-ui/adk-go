@@ -20,9 +20,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
-	"google.golang.org/adk/session"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/artifact"
+	"github.com/moskovkin-ui/adk-go/session"
 )
 
 type internalArtifacts struct {

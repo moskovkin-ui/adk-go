@@ -22,12 +22,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/internal/toolinternal/toolutils"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/memory"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool"
+	"github.com/moskovkin-ui/adk-go/internal/toolinternal"
+	"github.com/moskovkin-ui/adk-go/internal/toolinternal/toolutils"
+	"github.com/moskovkin-ui/adk-go/internal/utils"
+	"github.com/moskovkin-ui/adk-go/memory"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/tool"
 )
 
 const memoryInstructions = `You have memory. You can use it to answer questions. If any questions need

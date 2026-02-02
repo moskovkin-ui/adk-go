@@ -19,7 +19,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/session"
+	"github.com/moskovkin-ui/adk-go/session"
 )
 
 /*

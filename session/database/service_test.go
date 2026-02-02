@@ -26,8 +26,8 @@ import (
 	"google.golang.org/genai"
 	"gorm.io/gorm"
 
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/session"
 )
 
 func Test_databaseService_Create(t *testing.T) {

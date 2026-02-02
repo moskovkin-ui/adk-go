@@ -27,13 +27,13 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/agent/llmagent"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/runner"
+	"github.com/moskovkin-ui/adk-go/session"
+	"github.com/moskovkin-ui/adk-go/tool"
+	"github.com/moskovkin-ui/adk-go/tool/functiontool"
 )
 
 // FakeLLM is a mock implementation of model.LLM for testing.

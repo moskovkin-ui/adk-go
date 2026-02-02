@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/internal/llminternal/converters"
-	"google.golang.org/adk/model"
+	"github.com/moskovkin-ui/adk-go/internal/llminternal/converters"
+	"github.com/moskovkin-ui/adk-go/model"
 )
 
 const (

@@ -25,18 +25,18 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/internal/agent/parentmap"
-	"google.golang.org/adk/internal/agent/runconfig"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/plugininternal/plugincontext"
-	"google.golang.org/adk/internal/telemetry"
-	"google.golang.org/adk/internal/toolinternal"
-	"google.golang.org/adk/internal/utils"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/internal/agent/parentmap"
+	"github.com/moskovkin-ui/adk-go/internal/agent/runconfig"
+	icontext "github.com/moskovkin-ui/adk-go/internal/context"
+	"github.com/moskovkin-ui/adk-go/internal/plugininternal/plugincontext"
+	"github.com/moskovkin-ui/adk-go/internal/telemetry"
+	"github.com/moskovkin-ui/adk-go/internal/toolinternal"
+	"github.com/moskovkin-ui/adk-go/internal/utils"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/session"
+	"github.com/moskovkin-ui/adk-go/tool"
+	"github.com/moskovkin-ui/adk-go/tool/toolconfirmation"
 )
 
 var ErrModelNotConfigured = errors.New("model not configured; ensure Model is set in llmagent.Config")

@@ -21,13 +21,13 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	agentinternal "google.golang.org/adk/internal/agent"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/llminternal"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/session"
-	"google.golang.org/adk/tool"
+	"github.com/moskovkin-ui/adk-go/agent"
+	agentinternal "github.com/moskovkin-ui/adk-go/internal/agent"
+	icontext "github.com/moskovkin-ui/adk-go/internal/context"
+	"github.com/moskovkin-ui/adk-go/internal/llminternal"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/session"
+	"github.com/moskovkin-ui/adk-go/tool"
 )
 
 // New is a constructor for LLMAgent.

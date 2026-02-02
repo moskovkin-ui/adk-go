@@ -34,8 +34,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/tool"
 )
 
 // New creates  gemini API tool.

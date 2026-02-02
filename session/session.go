@@ -21,8 +21,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/tool/toolconfirmation"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/tool/toolconfirmation"
 )
 
 // Session represents a series of interactions between a user and agents.

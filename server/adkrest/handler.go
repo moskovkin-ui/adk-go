@@ -21,11 +21,11 @@ import (
 	"github.com/gorilla/mux"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	"google.golang.org/adk/cmd/launcher"
-	"google.golang.org/adk/internal/telemetry"
-	"google.golang.org/adk/server/adkrest/controllers"
-	"google.golang.org/adk/server/adkrest/internal/routers"
-	"google.golang.org/adk/server/adkrest/internal/services"
+	"github.com/moskovkin-ui/adk-go/cmd/launcher"
+	"github.com/moskovkin-ui/adk-go/internal/telemetry"
+	"github.com/moskovkin-ui/adk-go/server/adkrest/controllers"
+	"github.com/moskovkin-ui/adk-go/server/adkrest/internal/routers"
+	"github.com/moskovkin-ui/adk-go/server/adkrest/internal/services"
 )
 
 // NewHandler creates and returns an http.Handler for the ADK REST API.

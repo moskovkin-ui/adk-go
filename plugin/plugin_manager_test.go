@@ -24,14 +24,14 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/agent/llmagent"
-	"google.golang.org/adk/internal/testutil"
-	"google.golang.org/adk/model"
-	"google.golang.org/adk/plugin"
-	"google.golang.org/adk/runner"
-	"google.golang.org/adk/tool"
-	"google.golang.org/adk/tool/functiontool"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/agent/llmagent"
+	"github.com/moskovkin-ui/adk-go/internal/testutil"
+	"github.com/moskovkin-ui/adk-go/model"
+	"github.com/moskovkin-ui/adk-go/plugin"
+	"github.com/moskovkin-ui/adk-go/runner"
+	"github.com/moskovkin-ui/adk-go/tool"
+	"github.com/moskovkin-ui/adk-go/tool/functiontool"
 )
 
 type testCase struct {

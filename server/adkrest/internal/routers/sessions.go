@@ -17,7 +17,7 @@ package routers
 import (
 	"net/http"
 
-	"google.golang.org/adk/server/adkrest/controllers"
+	"github.com/moskovkin-ui/adk-go/server/adkrest/controllers"
 )
 
 // SessionsAPIRouter defines the routes for the Sessions API.

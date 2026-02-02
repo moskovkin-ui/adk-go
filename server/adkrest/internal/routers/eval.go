@@ -17,7 +17,7 @@ package routers
 import (
 	"net/http"
 
-	"google.golang.org/adk/server/adkrest/controllers"
+	"github.com/moskovkin-ui/adk-go/server/adkrest/controllers"
 )
 
 // EvalAPIRouter defines the routes for the Eval API.

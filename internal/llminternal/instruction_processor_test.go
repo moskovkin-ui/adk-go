@@ -21,12 +21,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"google.golang.org/adk/agent"
-	"google.golang.org/adk/artifact"
-	artifactinternal "google.golang.org/adk/internal/artifact"
-	icontext "google.golang.org/adk/internal/context"
-	"google.golang.org/adk/internal/sessioninternal"
-	"google.golang.org/adk/session"
+	"github.com/moskovkin-ui/adk-go/agent"
+	"github.com/moskovkin-ui/adk-go/artifact"
+	artifactinternal "github.com/moskovkin-ui/adk-go/internal/artifact"
+	icontext "github.com/moskovkin-ui/adk-go/internal/context"
+	"github.com/moskovkin-ui/adk-go/internal/sessioninternal"
+	"github.com/moskovkin-ui/adk-go/session"
 )
 
 func TestInjectSessionState(t *testing.T) {
